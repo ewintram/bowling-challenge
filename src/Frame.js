@@ -2,6 +2,8 @@ function Frame() {
   this.bowls = [];
   this.bowlIndex = 1;
   this.finalFrame = false
+  this.requiresBonus = false
+  this.awaitingBonus = false
   MAX_PINS = 10;
 };
 
